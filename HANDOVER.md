@@ -6,6 +6,7 @@
 | **Prepared by** | Rhodonite (design & front-end) |
 | **Date** | 29 September 2026 |
 | **Live URL** | https://hillbottom-properties.vercel.app |
+| **Repository** | https://github.com/Abeno7/hillbottom-properties-website |
 | **Hosting** | Vercel, project `hillbottom-properties` |
 | **Status** | Front end complete. Four integrations are needed before public launch (section 6). |
 
