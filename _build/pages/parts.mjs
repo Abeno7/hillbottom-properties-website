@@ -5,7 +5,7 @@ export const fmtDate = (d) => new Date(d + "T00:00:00Z").toLocaleDateString("en-
 
 export const coverFor = (slug) =>
   slug === "why-buy-property-in-ayat" ? "hillbottom-interior"
-  : slug === "roi-of-buying-in-addis" ? "urban-kaza-ext"
+  : slug === "roi-of-buying-in-addis" ? "urban-kaza-ext-v2"
   : slug === "how-to-buy-real-estate-in-ethiopia" ? "recreation-hub"
   : slug === "how-reliable-are-real-estates-in-ethiopia" ? "kaza-building" : "kaza-rooftop";
 

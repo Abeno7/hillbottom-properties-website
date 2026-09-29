@@ -75,7 +75,7 @@ export const PROJECTS = [
     status: "In Progress",
     stage: "Newly Launched",
     pct: 44,
-    img: "urban-kaza-ext",
+    img: "urban-kaza-ext-v2",
     alt: "Urban Kaza exterior, Kazanchis",
     cta: "Explore Urban Kaza",
     price: "135,000 ETB / sqm",
@@ -143,7 +143,7 @@ export const KAZA_FLOORS = [
   { f: "Underground", t: "Underground Parking", img: "kaza-building" },
   { f: "Ground Floor", t: "Lobby, Café & Concierge", img: "kaza-cafe-01" },
   { f: "1st Floor", t: "Above-Ground Parking", img: "kaza-building" },
-  { f: "2F – 15F", t: "Residential Apartments", img: "kaza-apt-01" },
+  { f: "2F – 15F", t: "Residential Apartments", img: "kaza-apt-01-v2" },
   { f: "Rooftop", t: "Gym, Bar & Restaurant", img: "kaza-rooftop" },
 ];
 
@@ -178,7 +178,7 @@ export const KAZA_GALLERY = [
   { img: "kaza-rooftop-06", cap: "Rooftop Interior 06" },
   { img: "kaza-rooftop-07", cap: "Rooftop Interior 07" },
   { img: "kaza-rooftop-08", cap: "Rooftop Interior 08" },
-  { img: "kaza-apt-01", cap: "Apartment 01" },
+  { img: "kaza-apt-01-v2", cap: "Apartment 01" },
   { img: "kaza-apt-02", cap: "Apartment 02" },
   { img: "kaza-apt-03", cap: "Apartment 03" },
   { img: "kaza-apt-04", cap: "Apartment 04" },
@@ -279,7 +279,7 @@ export const INTEREST = [
 ];
 
 export const VR_TOURS = [
-  { name: "Urban Kaza", where: "Kazanchis, near Addis Sport Park", img: "urban-kaza-ext", status: "In Progress",
+  { name: "Urban Kaza", where: "Kazanchis, near Addis Sport Park", img: "urban-kaza-ext-v2", status: "In Progress",
     d: "Walk every floor, amenity, and living space in full 360° — the lobby, the residential levels, and the rooftop." },
   { name: "Hill Bottom Village", where: "Ayat Square, Addis Ababa", img: "block-c-10", status: "Block A Complete",
     d: "Step inside the completed, occupied Phase 1 apartments before you visit in person." },
@@ -316,7 +316,7 @@ export const REMOTE_FAQ = [
    Stage and milestone are the real published states. No progress photography
    or verified completion percentage exists yet, so none is shown. */
 export const CONSTRUCTION = [
-  { key: "urban-kaza", name: "Urban Kaza", where: "Kazanchis, near Addis Sport Park", stage: "Superstructure in progress", milestone: "Reserve now — 98 residences", img: "urban-kaza-ext", href: "projects/urban-kaza.html", status: "In Progress" },
+  { key: "urban-kaza", name: "Urban Kaza", where: "Kazanchis, near Addis Sport Park", stage: "Superstructure in progress", milestone: "Reserve now — 98 residences", img: "urban-kaza-ext-v2", href: "projects/urban-kaza.html", status: "In Progress" },
   { key: "hillbottom-village", name: "Hill Bottom Village — Block B", where: "Ayat Square, Addis Ababa", stage: "In construction", milestone: "Delivery October 2026", img: "block-c-10", href: "projects/hillbottom-village.html", status: "Block A Complete" },
   { key: "recreation-center", name: "Commercial + Recreation Centre", where: "Ayat, Addis Ababa — Phase 3", stage: "Begins after Block B handover", milestone: "Opening January 2027", img: "block-c-01", href: "projects/recreation-center.html", status: "Coming Jan 2027" },
 ];

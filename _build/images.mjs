@@ -8,7 +8,7 @@ const SRC = "C:/Users/Ident/AppData/Local/Temp/claude/hb/assets";
 const OUT = "assets/img";
 fs.mkdirSync(OUT, { recursive: true });
 
-const HERO = new Set(["hero-hillbottom", "urban-kaza-ext", "recreation-hub", "kaza-building", "hillbottom-interior"]);
+const HERO = new Set(["hero-hillbottom", "urban-kaza-ext-v2", "recreation-hub", "kaza-building", "hillbottom-interior"]);
 const files = fs.readdirSync(SRC).filter((f) => f.endsWith(".png"));
 const manifest = {};
 

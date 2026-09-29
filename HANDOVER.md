@@ -161,6 +161,12 @@ JavaScript, every zone and thumbnail is still listed and linked.
 
 ## 10. Known gotchas
 
+- **Replacing an image or video: give it a new filename** (e.g. `-v3`) and update the
+  reference; never overwrite a file under the same name. Browsers keep media for up to
+  a week (`vercel.json`), so a same-name swap stays invisible to returning visitors.
+  `_build/version-assets.py` shows how the September re-renders were versioned.
+- Vercel is configured to skip install/build (`vercel.json`): the HTML is prebuilt
+  locally and committed. Always run `npm run build` before deploying.
 - Do **not** enable `cleanUrls` on Vercel (internal links use `.html`).
 - Deploy with `--archive=tgz`; plain uploads fail on this project.
 - The local server (`npm run serve`) must be running for `npm run check`. If it is

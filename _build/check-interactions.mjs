@@ -93,7 +93,7 @@ await check("Native brand intro plays on the first session (no film)", "!!docume
 await sleep(5200);
 await check("Brand intro exits and unlocks the page", "document.documentElement.classList.contains('hbi-seen') && !document.documentElement.classList.contains('intro-lock') && document.querySelector('.hero').classList.contains('lit')");
 await check("Project status rail has four mountain progress cards", "document.querySelector('.portfolio-index').classList.contains('rv') && document.querySelectorAll('.status-card .status-card__fill').length===4");
-await check("Hero uses the supplied looping Urban Kaza film", "document.querySelector('[data-hero-video] source').getAttribute('src').includes('urban-kaza-showcase.mp4') && document.querySelector('[data-hero-video]').loop");
+await check("Hero uses the supplied looping Urban Kaza film", "document.querySelector('[data-hero-video] source').getAttribute('src').includes('urban-kaza-showcase-v2.mp4') && document.querySelector('[data-hero-video]').loop");
 await check("Construction progress chapter is removed", "!document.querySelector('.home-construction')");
 await check("Delivered gallery loops while testimonials remain stable and readable", "document.querySelectorAll('.delivery-marquee__group').length===2 && document.querySelectorAll('.testimonial-marquee__group').length===1 && getComputedStyle(document.querySelector('.testimonial-marquee__track')).animationName==='none'");
 await check("Buttons are flat: no gradient, glass or shadow", "[...document.querySelectorAll('.btn')].every(b=>{const s=getComputedStyle(b);return s.backgroundImage==='none'&&s.boxShadow==='none'&&(s.backdropFilter==='none'||!s.backdropFilter)})");

@@ -153,7 +153,7 @@ out["projects.html"] = page({
 ${pageHero(0, {
   title: "Our Projects",
   sub: "From Ayat to Kazanchis — each Hill Bottom project is a deliberate act of community-building and architectural conviction.",
-  imgName: "urban-kaza-ext",
+  imgName: "urban-kaza-ext-v2",
   alt: "Urban Kaza exterior, Kazanchis",
   stations: [],
 })}
@@ -228,7 +228,7 @@ out["projects/urban-kaza.html"] = page({
 
 ${ukIntro()}
 <section class="hero uk-hero">
-  <div class="hero__media"><img src="../assets/img/feedback-urban.webp" alt="Urban Kaza at dusk in Kazanchis" fetchpriority="high"></div>
+  <div class="hero__media"><img src="../assets/img/urban-kaza-dusk-v2.webp" alt="Urban Kaza at dusk in Kazanchis" fetchpriority="high"></div>
   <span class="hero__veil"></span>
   <div class="wrap hero__in">
     <div class="hero__stage">

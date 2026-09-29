@@ -25,19 +25,19 @@ const PILLAR_ICONS = [
   UI_ICON.trend,
 ];
 const STORY_ICON = `<span class="section-icon" aria-hidden="true">${UI_ICON.fileText}</span>`;
-const PROJECT_MEDIA = ["block-c-10-1400.webp", "feedback-urban.webp", "block-c-01-1400.webp"];
+const PROJECT_MEDIA = ["block-c-10-1400.webp", "urban-kaza-dusk-v2.webp", "block-c-01-1400.webp"];
 const PROJECT_STATUS_ICON = [
   UI_ICON.checkCircle,
   UI_ICON.clock,
   UI_ICON.calendar,
 ];
 const DELIVERY_GALLERY = [
-  ["feedback-gallery-01.webp", "Completed Hill Bottom residence"],
-  ["feedback-gallery-02.webp", "Hill Bottom apartment interior"],
-  ["feedback-gallery-03.webp", "Hill Bottom living space"],
-  ["feedback-gallery-04.webp", "Hill Bottom residential amenity"],
-  ["feedback-gallery-05.webp", "Hill Bottom community environment"],
-  ["feedback-gallery-06.webp", "Finished Hill Bottom interior"],
+  ["urban-kaza-elevation-v2.webp", "Urban Kaza twin-pillar elevation at dusk"],
+  ["urban-kaza-street-v2.webp", "Urban Kaza podium and street frontage"],
+  ["urban-kaza-podium-v2.webp", "Urban Kaza signage above the entrance"],
+  ["feedback-gallery-04.webp", "Urban Kaza tower at dusk"],
+  ["urban-kaza-aerial-v2.webp", "Aerial view of Urban Kaza and its landscaped surroundings"],
+  ["feedback-gallery-06.webp", "Urban Kaza apartment kitchen and dining"],
 ];
 const deliveryFrames = (hidden = false) => `<div class="delivery-marquee__group"${hidden ? ' aria-hidden="true"' : ''}>${DELIVERY_GALLERY.map(([src, altText]) => `<figure><img src="assets/img/${src}" alt="${hidden ? "" : altText}" loading="lazy" decoding="async"></figure>`).join("")}</div>`;
 const testimonialSlides = (hidden = false) => `<div class="testimonial-marquee__group"${hidden ? ' aria-hidden="true"' : ''}>${TESTIMONIALS.map((t) => `
@@ -79,8 +79,8 @@ ${welcome(0, WELCOME)}
 
 <section class="hero">
   <div class="hero__media">
-    <img src="assets/img/feedback-urban.webp" alt="Urban Kaza at dusk in Kazanchis" fetchpriority="high">
-    <video data-hero-video muted loop playsinline preload="metadata" poster="assets/img/feedback-urban.webp" aria-hidden="true"><source src="assets/video/urban-kaza-showcase.mp4" type="video/mp4"></video>
+    <img src="assets/img/urban-kaza-dusk-v2.webp" alt="Urban Kaza at dusk in Kazanchis" fetchpriority="high">
+    <video data-hero-video muted loop playsinline preload="metadata" poster="assets/img/urban-kaza-dusk-v2.webp" aria-hidden="true"><source src="assets/video/urban-kaza-showcase-v2.mp4" type="video/mp4"></video>
   </div>
   <span class="hero__veil"></span>
   <div class="wrap hero__in">
@@ -129,7 +129,7 @@ ${welcome(0, WELCOME)}
         <p class="story__d">Completed and occupied.</p>
         <span class="outlined-action" aria-hidden="true">View delivered project<span>${ICON.arrow}</span></span>
       </a>
-      <a class="proofcard rv" href="projects/urban-kaza.html" style="--proof-image:url('../img/feedback-urban.webp')">
+      <a class="proofcard rv" href="projects/urban-kaza.html" style="--proof-image:url('../img/urban-kaza-dusk-v2.webp')">
         <span class="proofcard__badge" aria-hidden="true">${UI_ICON.key}</span>
         <p class="mark">Now Selling</p>
         <h2 class="d3">Urban Kaza</h2>
@@ -236,7 +236,7 @@ ${welcome(0, WELCOME)}
 <section class="home-tours">
   <div class="home-tours__media">
     <img src="assets/img/feedback-team.webp" alt="Urban Kaza living space" loading="lazy" decoding="async">
-    <video data-loop-video muted loop playsinline preload="metadata" poster="assets/img/feedback-team.webp" aria-hidden="true"><source src="assets/video/urban-kaza-showcase.mp4" type="video/mp4"></video>
+    <video data-loop-video muted loop playsinline preload="metadata" poster="assets/img/feedback-team.webp" aria-hidden="true"><source src="assets/video/urban-kaza-showcase-v2.mp4" type="video/mp4"></video>
   </div>
   <span class="home-tours__veil"></span>
   <div class="wrap home-tours__content rv">
